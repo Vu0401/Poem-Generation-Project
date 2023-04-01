@@ -1,8 +1,11 @@
 # Poem-Generation-Project
-This is a text generation project which crawls data from web and uses tranformer to create poem
+This is a text generation project which crawls data from web and uses transformer architecture to create poem
 
 # Dataset
 Taking Haiku poetry data from first 10 pages at https://www.thivien.net/searchpoem.php?PoemType=16&ViewType=1&Country=2 
+
+# Progamming language
+Python
 
 # Inference
 Input: "Đời này còn lại gì" 
