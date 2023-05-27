@@ -1,5 +1,5 @@
 # Poem-Generation-Project
-A text generation project which crawls data from web and uses transformer architecture to create poem
+A text generation project which crawls data from web and uses transformer architecture to create Vietnamese poem
 
 # Dataset
 Taking Haiku poetry data from first 10 pages at https://www.thivien.net/searchpoem.php?PoemType=16&ViewType=1&Country=2 
