@@ -9,11 +9,26 @@ Python
 
 # Inference
 ```python
-Input: "Đời này còn lại gì" 
-
 n_sentences = 3
+results = ['đời này còn lại gì']
+for idx in range(n_sentences):
+    input_str = results[idx]
+    text, output_tokens, attention_weights = generate_text(
+        transformer, 
+        tokenizer,
+        input_str
+    )
+    results.append(text.replace('<start>', '').replace('<end>', '').strip())
+results = list(map(lambda x: x.capitalize(), results))
+print('\n'.join(results))
 ```
-![image](https://user-images.githubusercontent.com/93986576/229311158-fdf9aab1-4adb-48bc-ae53-8d18b66e230c.png)
+```
+Đời này còn lại gì
+Người ấy đến rất thơ
+Từ sâu rừng xanh tận
+Một tình yêu thương yêu
+```
+
 
 
 
