@@ -22,6 +22,7 @@ for idx in range(n_sentences):
 results = list(map(lambda x: x.capitalize(), results))
 print('\n'.join(results))
 ```
+
 ```
 Đời này còn lại gì
 Người ấy đến rất thơ
